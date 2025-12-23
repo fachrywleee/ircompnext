@@ -25,7 +25,8 @@ export default function Home() {
       await navigator.clipboard.writeText(preview || formatPesan())
       alert('Pesan disalin!')
     } catch (e) {
-      alert('Gagal menyalin — izinkan akses clipboard.')</n+    }
+      alert('Gagal menyalin — izinkan akses clipboard.')
+    }
   }
 
   function handleKirim() {
